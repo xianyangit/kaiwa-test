@@ -1,0 +1,426 @@
+#CC			{margin:0 auto; width:320px;}
+
+/* ヘッダー 
+#cHD		{margin:0 0 0 0; width:320px;}
+*/
+/* メインイメージ */
+#cMI		{margin:10px; width:298px;}
+
+#MDC1		{margin:0 0 20px 0; width:320px; }
+#MDC2		{margin:0 0 20px 0; width:320px; }
+
+/* TOP SCROLL MOBILE */			
+.tSCL		{position: fixed; bottom:50px; right:0px;}
+.posR		{width:64px; height:64px; margin:0 10px 20px 5px; position:absolute; right:0; text-align:center;}
+.posR img	{padding:20px;}
+
+/* 右カラム */
+#RC			{clear:both;margin:20px 0 20px 0; width:320px;}
+
+.R_dot_lines{	float:left; width:298px;
+				margin:0px 5px 0px 5px;padding:5px;border-top: 1px dotted #CCCCCC;}
+
+.cR_sub			{margin:0 10px 10px 10px;}
+.cR_sub	a		{display: block; margin:0 !important; width:100% !important;
+				border-top: 1px dotted #CCCCCC;position:relative; }
+
+.etc1	{	line-height: 110%;font-size:12px;}
+
+/*-------------------------------------
+	見出し
+-------------------------------------*/
+
+h1 { clear:both; font-size:20px; font-weight:bold; margin:0 10px; padding:20px 0px 16px; border-bottom:3px solid #D80100; }
+
+/* サブタイトル もっと大きい */
+.sT0_SET { 
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* サブタイトル 大きい */
+.sT1_SET	{ margin:0 10px 15px 10px;padding:0;}
+
+/* サブタイトル 小さい */			
+.sT2_SET	{ margin:0 10px 15px 10px;padding:0;}
+
+/*------------------------------------
+	header
+------------------------------------*/
+#siteIdentity { font-size:14px; padding:0;}
+
+#headLocalNavi { position:relative;text-align:center; }
+#headLocalNavi p.acoMenu { display:block;text-align:center; }
+#headLocalNavi ul.btnList {
+	display:none;
+	position:absolute;
+	top:70px;
+	left:10px;
+	padding-top:20px;
+	background:url(../img/framework/bg_popmenu_fukidashi.png) center top no-repeat;
+}
+
+#headLocalNavi li {
+	float:none;
+	margin:0;	
+}
+
+#headLocalNavi li a.btn_a {
+		display:inline-block;
+		box-shadow:none!important; /*CSS3*/
+		-moz-box-shadow:none!important; /* Firefox用*/
+		-webkit-box-shadow: none!important; /* Google Chrome, Safari用*/
+		border:none!important;
+		border-bottom: 1px dotted #CCCCCC!important;
+		background-color:#333!important;
+		background-image:none!important;
+		/*overflow:hidden;*/
+		padding:6px;
+}
+
+
+
+#headLocalNavi li a.btn_a span.btnInner2 {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	height:40px;
+	vertical-align:middle;
+	background-image:none;
+	background-color:#333
+}
+
+#headLocalNavi li a.btn_a span.btnInner2 span.btnLetter {
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	padding-right:12px;
+	background:url(/ra/app/common/img/framework/arr_right_o.png) right center no-repeat;
+	color:#fff;
+}
+
+
+#headLocalNavi li.current a.btn_a span.btnInner2 {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	/*min-height:42px;*/
+	height:42px;
+	vertical-align:middle;
+	background-color:#666;
+	background-image:none;
+}
+
+/*------------------------------------
+	inner
+------------------------------------*/
+.inner { padding-left:0; }
+.section { padding:0px 10px; padding-bottom:20px; }
+.section1 { padding:0px 10px 20px 10px;}
+.section2 { padding:0px 10px 15px 10px;}
+.section3 { padding:0 5px; }
+.section4 { padding:0 10px 20px 10px; }
+
+div.cR_sub .columnArea1 {
+	clear:both;
+	float:none;
+	border:1px solid #ccc;
+	margin-right:0;
+	padding:12px;
+	width:274px;
+}
+
+.sideBtnArea{ padding:5px;}
+
+/*------------------------------------
+	2Column inner
+------------------------------------*/
+.box2Column div.leftBox,
+.box2Column_noBd div.leftBox {
+	float:none;
+	width:auto;
+	text-align:center;
+}
+
+.box2Column div.rightBox,
+.box2Column_noBd div.rightBox {
+	float:none;
+	width:auto;
+	margin:0 0 15px 0;
+	padding:0;	
+}
+
+/*------------------------------------
+	4Column list
+------------------------------------*/
+.box4Column {
+	float:left;
+	width:145px;
+	margin:0 5px 10px 5px;	
+}
+
+
+/*------------------------------------
+	buttonList
+------------------------------------*/
+.btnList li{
+	float:left;
+	margin:0 5px 10px 5px;
+}
+
+.btnList_pageAnchor{
+	padding:10px 5px 30px 5px;
+}
+
+/*------------------------------------
+	btnsize
+------------------------------------*/
+.btnW_2Cola { width:254px; }
+.btnW_2ColB { width:276px; }
+.btnW_2ColC { width:254px; }
+.btnW_2ColD { width:254px; }/*サイド有*/
+.btnW_2ColE { width:254px; }/*サイド有*/
+.btnW_3Cola { width:254px; }/*サイド有*/
+.btnW_3ColB { width:254px; }
+.btnW_3ColC { width:276px; }
+.btnW_3ColD { width:254px; }
+.btnW_4ColB { width:254px; }
+.btnW_5ColA { width:304px; }
+.btnW_side  { width:254px; }
+
+.btnH1 { height:inherit; }
+.btnH2 { height:inherit; }
+.btnH3 { height:inherit; }
+.btnH4 { height:inherit; }
+.btnH5 { height:inherit; }
+
+#headLocalNavi li a.btn_a span.btnInner2 { height:42px!important;}
+#headLocalNavi li.current a.btn_a span.btnInner2 { height:42px!important; }
+
+/*------------------------------------
+	footer
+------------------------------------*/
+#cFT_inner { width:320px; margin:0 auto; text-align:center; font-size:11px;padding:15px 0;}
+#footerBtn { width:305px; }
+#footerBtn li {font-size:10px!important;}
+#footerBtn li a {
+	display:block;
+	width:122px;
+	padding:8px 12px 8px 6px;
+}
+
+/*------------------------------------
+	btnList_small
+------------------------------------*/
+
+.btnList_small { padding:0 5px;}
+.btnList_small li {
+	width: 126px;
+	font-size:12px;
+}
+
+/*------------------------------------
+	start_setting01.html
+------------------------------------*/
+
+.tableStyle1{
+	border-collapse:collapse;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	width:100%;
+}
+
+.tableStyle1 th {
+	background:#efefef;
+	padding:8px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	font-size:11px;
+}
+
+.tableStyle1 td {
+	padding:8px;
+	vertical-align:middle;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	font-size:11px;
+}
+
+
+/*------------------------------------
+	start_setting02.html
+------------------------------------*/
+.settingColumn div.leftBox,
+.settingColumn2 div.leftBox {
+	float:none;
+	width:120px;
+	margin-bottom:10px;	
+}
+
+.settingColumn div.rightBox,
+.settingColumn2 div.rightBox {
+	float:none;
+	width:100%;
+}
+
+/*------------------------------------
+	start_first.html
+------------------------------------*/
+.start_first_kinou_torikeshi { clear:both;margin-left:-20px;padding:10px 0; }
+.start_first_kinou_torikeshi li {
+	float:left;
+	display:block;
+	width:90px;
+	padding:8px 0;
+	margin:0 3px 10px 3px;
+	border:1px solid #ccc;
+	text-align:center;
+	text-indent:0;
+	font-size:11px;
+}
+
+
+/*------------------------------------
+	start_compatible_models.html
+------------------------------------*/
+
+ul.modelList {
+	clear:both;
+	border-bottom:1px dotted #ccc;
+	margin-bottom:10px;
+}
+
+ul.modelList li {
+	float:left;
+	display:block;
+	padding:12px 0;
+	margin:0 5px 10px 5px;
+	border:1px solid #ccc;
+	text-align:center;
+	text-indent:0;		
+}
+
+ul.modelList li div {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	width:130px;
+	font-size:12px;
+}
+
+/*------------------------------------
+	start_basic01.html
+------------------------------------*/
+.start_att_listTable li span.tbHead {
+	display:table-cell;
+	background:#fff;
+	width:35%;
+	padding:15px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.start_att_listTable li span.tbBody {
+	display:table-cell;
+	width:65%;
+	padding:15px 10px;
+	background:#fff;
+	vertical-align:middle;
+}
+
+.start_att_listTable2 li span.tbHead {
+	display:table-cell;
+	background:#fff;
+	width:30%;
+	padding:15px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.start_att_listTable2 li span.tbBody {
+	display:table-cell;
+	width:70%;
+	padding:15px 10px;
+	background:#fff;
+	vertical-align:middle;
+}
+
+.start_att_2col div.leftBox,
+.start_att_2col_lastChild div.leftBox {
+	float:left;
+	width:55px;	
+}
+
+.start_att_2col div.rightBox,
+.start_att_2col_lastChild div.rightBox {
+	float:left;
+	width:240px;	
+}
+
+/*------------------------------------
+	faq.html
+------------------------------------*/
+
+.faq_q { clear:both; margin-bottom:15px; padding:0 0 0; }
+.faq_a { clear:both; margin-bottom:15px; padding:0 0 15px; border-bottom:1px dotted #ccc; }
+.faq_a_lastChild { margin-bottom:0;padding-bottom:0;border-bottom:none; }
+
+.faq_q div.txtArea,
+.faq_a div.txtArea {
+	float:right;
+	width:260px;
+	padding:4px 0 0 0;
+}
+
+.faq_q div.txtArea2{
+	float:right;
+	width:250px;
+	padding:4px 0 0 0;
+}
+
+/*------------------------------------
+	start_basic15.html
+------------------------------------*/
+.start_basic_borderList li div {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	width:130px;
+	font-size:12px;
+}
+
+/*------------------------------------
+	start_basic04.html
+------------------------------------*/
+
+
+.tableStyle2{
+	border-collapse:collapse;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	width:100%;
+}
+
+.tableStyle2 th {
+	background:#efefef;
+	padding:8px 1px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	font-size:11px;
+}
+
+.tableStyle2 td {
+	padding:8px 1px;
+	text-align:center;
+	vertical-align:middle;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	font-size:11px;
+}
+

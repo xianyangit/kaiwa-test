@@ -1,0 +1,781 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---hack-------------*/
+.cFix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   height: 0;
+   visibility: hidden;
+}
+.cFix { display: inline-block; }
+/* exlude MacIE5 \*/
+* html .cFix { height: 1% }
+.cFix {display:block;}
+/* end MacIE5 */
+/*--------------------*/
+/* 共通 */
+
+
+/* clearfix */
+.clearfix {clear:both;}
+
+/* 全体 */
+#CW		{width:100%;} /*text-align:center;*/
+
+/* ヘッダー */
+#cHD		{margin:0; width:100%;}
+
+.imghover:hover {opacity:0.7; background-color:#FFFFFF !important;}
+
+/* BASE */
+.BASE 	{	box-shadow: 0px 0px 7px #DADADA; /*CSS3*/
+			-moz-box-shadow: 0px 0px 7px #DADADA; /* Firefox用*/
+			-webkit-box-shadow: 0px 0px 7px #DADADA; /* Google Chrome, Safari用*/
+			border: 1px solid #CCCCCC; background-color:#FFFFFF;
+			border-radius: 4px; /* CSS3*/  
+			-webkit-border-radius: 4px; /* Safari,Google Chrome用 */  
+			-moz-border-radius: 4px; /* Firefox用 */
+			overflow:hidden;}
+			
+/* TOP SCROLL PC */			
+.tSCL			{position: relative; z-index: 999; }
+.posR			{width:32px; margin:0 5px 20px 5px; position:absolute; right:0; text-align:center;}
+.posR img		{padding:10px;}
+.posR a			{display: block; }
+.posR a:hover	{background-color:#FFFFE8;}
+
+/* スペース用 */
+.cBOX30	{margin:0; height:30px;}
+.cBOX20	{margin:0; height:20px;}
+.cBOX10	{margin:0; height:10px;}
+.cBOX05	{margin:0; height:5px;}
+.subHead { display:block;padding:5px 0; }
+
+.logoeco 		{text-align:center;}
+.linebox		{border: 1px solid #CCCCCC; padding:5px;}
+.typeselect_title		{padding:5px; font-weight: bold;}
+.typeselect_link		{padding:0 5px 5px 5px;}
+.typeselect_link a		{padding:0 5px 5px 5px; text-decoration: underline;}
+
+.aC { text-align:center!important; padding:0 0 10px 0;}
+.aL { text-align:left!important;   }
+.aR { text-align:right!important;  }
+.cB { clear:both!important; }
+
+.mb0 { margin-bottom:0px; }
+.mb05{ margin-bottom:5px; }
+.mb10{ margin-bottom:10px;}
+.mb15{ margin-bottom:15px;}
+.mb20{ margin-bottom:20px;}
+.mb25{ margin-bottom:25px;}
+.mb30{ margin-bottom:30px;}
+.mb35{ margin-bottom:35px;}
+.mb50{ margin-bottom:50px;}
+
+.mt20{ margin-top:20px;}
+
+.txtNormal { font-size:14px; }
+.txtSmall  { font-size:12px; }
+.txtXSmall { font-size:10px; }
+.txtLarge  { font-size:16px; }
+.txtXLarge { font-size:18px; }
+
+
+.no_listMarker { list-style-type:none!important; }
+/*-------------------------------------
+	TextLink
+-------------------------------------*/
+a.txtLink:link    {color:#08427C; text-decoration:underline; }
+a.txtLink:hover   {color:#CC0000; text-decoration:underline; }
+a.txtLink:visited {color:#551A8B; text-decoration:underline; }
+
+/*-------------------------------------
+	見出し
+-------------------------------------*/
+
+/* サブタイトル もっと大きい */
+.sT0_SET { 
+	border-left:5px solid #333;
+	padding:8px 0 8px 14px;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:0.2em;
+	margin-left:5px;
+}
+
+/* サブタイトル 大きい */
+.sT1_SET	{	margin:0 5px 15px 5px;padding:0;}
+
+.sT1_BOX	{	display:block;float:left;/*width:300px;*/
+				border-top: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;
+				background-color:#FFFFFF;background-image: url("../img/framework/i1.jpg");background-repeat: repeat-y;
+				position:relative;z-index:999;
+				border-top-left-radius: 2px;border-top-right-radius: 2px;
+ 				-webkit-border-top-left-radius: 2px;-webkit-border-top-right-radius: 2px; /* Safari,Google Chrome用 */  
+				-moz-border-top-left-radius: 2px;-moz-border-top-right-radius: 2px; /* Firefox用 */
+				        box-shadow: 0px -4px 12px -5px rgba(0, 0, 0, 0.25);
+				   -moz-box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.25);
+				-webkit-box-shadow: 0px -4px 9px -3px rgba(0, 0, 0, 0.15);
+				overflow:hidden;
+}
+.sT1_BOX_ra {background-image: url("../img/framework/i1.jpg")!important;}
+.sT1_BOX span	{ display:block;margin:15px 20px 12px 20px;font-size:16px;font-weight:bold;text-align:left;line-height: 140%;}
+				
+.sT1_ICN	{	display: inline-block; vertical-align: middle; padding:5px 0 5px 7px; }
+.sT1_TXT	{	display: inline-block; vertical-align: middle; width:126px; line-height: 140%; font-size:14px;}
+/*.sT1_LINE	{	display:block;float:left;width:100%;margin:0 0 15px 0;padding:0;
+				background:url(../img/dot3_ccc.gif) left bottom repeat-x;position:relative;top:-1px;z-index:-1;}*/
+.sT1_LINE	{	display:block;float:left;width:100%;margin:0 0 10px 0;padding:0;
+				background:url(../img/dot3_ccc.gif) left bottom repeat-x;position:relative;top:-1px;z-index:-1;}
+
+
+/* サブタイトル 小さい */			
+.sT2_SET	{	margin:0 5px 15px 5px;padding:0;/*width:708px;*/}
+
+.sT2_BOX	{	float:left;/*width:300px;*/
+				border-top: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;
+				background-color:#FFFFFF;background-image: url("../img/framework/i2.jpg");background-repeat: repeat-y;
+				position:relative;z-index:999;
+				border-top-left-radius: 2px;border-top-right-radius: 2px;
+ 				-webkit-border-top-left-radius: 2px;-webkit-border-top-right-radius: 2px; /* Safari,Google Chrome用 */  
+				-moz-border-top-left-radius: 2px;-moz-border-top-right-radius: 2px; /* Firefox用 */
+				        box-shadow: 0px -4px 12px -5px rgba(0, 0, 0, 0.25);
+				   -moz-box-shadow: 0px -3px 10px -3px rgba(0, 0, 0, 0.25);
+				-webkit-box-shadow: 0px -4px 9px -3px rgba(0, 0, 0, 0.15);
+				overflow:hidden;
+				}
+.sT2_BOX_ra {background-image: url("../img/framework/i1.jpg")!important;}
+.sT2_BOX span{	display:block;margin:10px 20px 8px 20px;font-size:14px;font-weight:bold;text-align:left;line-height: 120%;}
+/*.sT2_LINE	{	float:left;width:100%;margin:0 0 15px 0;padding:0;
+				background:url(../img/dot2_ccc.gif) left bottom repeat-x;position:relative;top:-1px;z-index:-1;}*/
+.sT2_LINE	{	float:left;width:100%;margin:0 0 10px 0;padding:0;
+				background:url(../img/dot2_ccc.gif) left bottom repeat-x;position:relative;top:-1px;z-index:-1;}
+
+		
+#N1{}
+#N2{}
+
+/* 重要なお知らせ */
+.nJ	a		{	display: block; margin:10px 5px 10px 5px; float:left;width:100%;margin:0;padding:0;
+				border-top: 1px dotted #CCCCCC;position:relative; }
+.nJ a:first-child{border:none;}
+.nJ a:hover {	background-color:#FFFFE8;}
+.nJ_DAY		{	display: inline-block; vertical-align: middle; padding:10px 0px 10px 15px; line-height: 110%; font-size:12px; width:100px;}
+.nJ_TXT		{	display: inline-block; vertical-align: middle; padding:14px 0 14px 0; line-height: 110%; font-size:12px; width:556px;}
+.nJ_ARR		{	display: inline-block; vertical-align: middle; padding:10px; }
+
+				
+/* 本文ダミー */			
+.letter_body	{	margin:0 5px 10px 5px;padding:0;font-size:12px;text-align:left;}
+.etc1	{	line-height: 110%;font-size:12px;}
+
+/* フッター */
+#cFT	{	margin:0 auto; width:100%; height:100px; background-color:#f2f2f2; text-align:center; border-top:1px solid #e5e5e5;}
+
+
+/*------------------------------------
+	Framework
+------------------------------------*/
+/*	Header
+------------------------------------*/
+
+#headerItem {
+width: 100%;
+height:60px;
+background: #E6E6E6 url(../img/framework/staging_bg.gif) left bottom repeat-x;
+border-style: none;
+overflow:hidden;
+}
+
+#siteIdentity {
+float:left;
+font-weight:bold;
+}
+
+#groupIdentity {
+float: right;
+padding: 1px 1px 0px 0px;
+}
+
+#headerTab {
+	position:relative;
+	padding-top:9px;
+	border-bottom:3px solid #ccc;	
+}
+
+#tabNavi {}
+
+#headerTab ul {
+	padding-left:10px;
+}
+
+#headerTab li.current {
+	background-color:#ffffe5;	
+}
+
+#headerTab li:hover {
+	background-color:#ffffe5;
+}
+
+/*------------------------------------
+	topicPath
+------------------------------------*/
+#topicPath a:link    { color:#08427C; text-decoration:underline; }
+#topicPath a:hover   { color:#CC0000; text-decoration:underline; }
+#topicPath a:visited { color:#551A8B; text-decoration:underline; }
+
+
+/*------------------------------------
+	headLocalNavi
+------------------------------------*/
+#headLocalNavi {
+	padding-top:10px;
+	font-size:12px;
+}
+
+#headLocalNavi li {
+	float:left;	
+}
+
+#headLocalNavi li.lastChild {
+	margin-right:0;	
+}
+
+
+/*------------------------------------
+	annotation
+------------------------------------*/
+/*.annotation { padding:10px 0 }*/
+.annotation { padding:0 }
+.annotation li { 
+	font-size:12px;
+	color:#666;
+	text-indent:-12px!important;
+	padding-left:12px!important;
+}
+
+/*.annotation_noMark { padding:10px 0 }*/
+.annotation_noMark { padding:0 }
+.annotation_noMark li { 
+	font-size:12px;
+	color:#666;
+}
+.annotationTxt {
+	font-size:12px;
+	color:#666;
+}
+
+/*------------------------------------
+	button
+------------------------------------*/
+.btn_a {
+		display:inline-block;
+		box-shadow: 0px 0px 7px #DADADA; /*CSS3*/
+		-moz-box-shadow: 0px 0px 7px #DADADA; /* Firefox用*/
+		-webkit-box-shadow: 0px 0px 7px #DADADA; /* Google Chrome, Safari用*/
+		border: 1px solid #CCCCCC; background-color:#FFFFFF;
+		/*overflow:hidden;*/
+		padding:6px;
+}
+
+
+.btn_a span.btnInner {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	height:40px;
+	vertical-align:middle;
+	background:#fff url(../img/framework/bg_btn_grd.jpg) left top repeat-x;
+	/*border:6px solid #fff;*/
+}
+
+.btn_a span.btnInner2 {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	/*min-height:42px;*/
+	height:40px;
+	vertical-align:middle;
+	background:#fff url(../img/framework/bg_btn_grd.jpg) left top repeat-x;
+	/*border:6px solid #fff;*/
+}
+
+span.btnLetter {
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	padding-right:12px;
+	background:url(../img/framework/arr_right.png) right center no-repeat;
+}
+
+	
+#headLocalNavi li.current a.btn_a span.btnInner {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	min-height:48px;
+	height:48px;
+	vertical-align:middle;
+	background-color:#009beb;
+	background-image:none;
+}
+
+#headLocalNavi li.current a.btn_a span.btnInner2 {
+	display:inline-table;
+	vertical-align:middle;
+	padding:10px;
+	/*min-height:42px;*/
+	height:40px;
+	vertical-align:middle;
+	background-color:#009beb;
+	background-image:none;
+}
+
+#headLocalNavi li.current a {
+	color:#fff;	
+}
+
+#headLocalNavi li.current a.btn_a span.btnInner span.btnLetter,
+#headLocalNavi li.current a.btn_a span.btnInner2 span.btnLetter{
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	padding-right:12px;
+	background:url(../img/framework/arr_right_o.png) right center no-repeat;
+}
+
+.acoMenu a.btn_a span.btnInner span.btnLetter {
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	padding-right:12px;
+	background:url(../img/framework/ic_ac_close.png) right center no-repeat;
+}
+
+
+/*------------------------------------
+	ページアンカー
+------------------------------------*/
+.btnList_pageAnchor{
+	padding:0 0 30px 0;
+}
+
+.btnList_pageAnchor li{
+	font-size:12px;
+	float:left;
+	margin:0 5px 5px;	
+}
+
+.btn_b {
+		display:inline-block;
+		box-shadow: 0px 0px 7px #DADADA; /*CSS3*/
+		-moz-box-shadow: 0px 0px 7px #DADADA; /* Firefox用*/
+		-webkit-box-shadow: 0px 0px 7px #DADADA; /* Google Chrome, Safari用*/
+		border: 1px solid #CCCCCC; background-color:#FFFFFF;
+		/*overflow:hidden;*/
+		padding:6px;
+}
+
+.btn_b span.btnLetter {
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	/*width:100%;*/
+	background:url(../img/framework/arr_bottom3.gif) right center no-repeat;
+}
+
+
+/*----ボタンリストのセンタリング----*/
+.list_centered {
+  position: relative;
+  overflow: hidden;
+}
+
+.list_centered ul {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.list_centered ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+/*------------------------------------
+	btnList_small
+------------------------------------*/
+
+.btnList_small {}
+.btnList_small li {
+	float: left;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	padding: 14px 8px;
+	width: 156px;
+	margin: 0 5px 10px;
+	text-align: left;
+}
+
+
+/*------------------------------------
+	header
+------------------------------------*/
+
+
+/*------------------------------------
+	footer
+------------------------------------*/
+#footerBtn{
+	clear:both;
+	border-top:1px dotted #ccc;
+	padding:15px 0px 10px 15px;
+}
+
+#footerBtn ul {}
+#footerBtn li {
+	float:left;
+	text-align:left;
+	margin-right:10px;
+	border:1px solid #ccc;
+	background:#fff;
+	background:url(../img/framework/arr_right2.png) right center no-repeat;
+	box-shadow: 0px 0px 4px 1px #DADADA; /*CSS3*/
+	-moz-box-shadow: 0px 0px 4px 1px #DADADA; /* Firefox用*/
+	-webkit-box-shadow: 0px 0px 4px 1px #DADADA; /* Google Chrome, Safari用*/
+}
+#footerBtn li:hover {
+	background-color:#ffffe5;
+}
+
+#pageTop {
+	
+}
+
+/*------------------------------------
+	box
+------------------------------------*/
+
+.boxLine1 { border-bottom:1px dotted #ccc; }
+.boxLine2 { border-top:1px dotted #ccc; padding-top:10px;}
+
+.box1 { border:1px solid #ccc;background:#ffffe5;padding:12px 20px; }
+.box2 { border:1px solid #ccc;padding:12px 20px; }
+
+.btnSpace { padding:15px 0; }
+
+/*------------------------------------
+	2Column inner
+------------------------------------*/
+.box2Column {
+	clear:both;
+	padding-bottom:15px;
+	margin-bottom:15px;
+	border-bottom:1px dotted #ccc;
+}
+
+.box2Column_noBd {
+	clear:both;
+	padding-bottom:15px;
+	margin-bottom:15px;
+}
+
+/*------------------------------------
+	その他
+------------------------------------*/
+.cov1 { padding:1px 5px 1px 5px; background:#EEE; border:1px solid #ccc; color:#333;margin-right:10px; }
+.cov2 { width:100px; padding:6px 10px;text-align:center;background:#009de8;color:#fff;font-weight:bold;margin-bottom:5px; }
+
+.listStyle_table li {
+	display:table;
+	width:100%;
+	border:1px solid #ccc;
+	margin-bottom:2px;
+}
+
+.listStyle_table li span.tbHead {
+	display:table-cell;
+	background:#fafafa;
+	width:18%;
+	padding:15px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.listStyle_table li span.tbBody {
+	display:table-cell;
+	width:82%;
+	padding:15px 10px;
+	backface-visibility:#fff;
+	vertical-align:middle;
+	border-left:1px solid #ccc;
+}
+
+/*--------------*/
+ol.normalList { clear:both;padding-left:2em; }
+ol.normalList li {
+	list-style-type:decimal;
+}
+
+ol.normalList2 { clear:both;padding-left:0.6em; }
+ol.normalList2 li { list-style-type:none; text-indent:-34px; padding-left:24px; }
+
+.normalList3 li{
+	text-indent:-20px!important;
+	padding-left:20px!important;
+}
+
+.normalList4 { padding-left:2em; }
+.normalList4 li {
+	list-style-type:disc;
+	text-indent:0;
+	padding:0;
+}
+
+/*リスト内のボタンは場合によってインデントゼロに（Aタグ等に）*/
+.noIndent { text-indent:0; }
+
+/*------------------------------------
+	start_setting01.html
+------------------------------------*/
+
+/*------------------------------------
+	start_setting02.html
+	leftBox,rightBoxはBPごとのCSSに記載
+------------------------------------*/
+.settingColumn {
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px dotted #ccc;	
+}
+
+.settingColumn2 {
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+
+.settingColumn_head {
+	padding:6px 0;
+	font-size:16px;
+	font-weight:bold;	
+}
+
+/*------------------------------------
+	start_first.html
+------------------------------------*/
+.start_first_kinou_torikeshi { clear:both;margin-left:-20px;padding:10px 0; }
+.start_first_kinou_torikeshi li {
+	float:left;
+	display:block;
+	width:174px;
+	padding:8px 0;
+	margin:0 5px 10px 5px;
+	border:1px solid #ccc;
+	text-align:center;
+	text-indent:0;		
+}
+
+/*------------------------------------
+	start_attention.html
+------------------------------------*/
+.start_att_column1 {
+	border:1px solid #ccc;
+	margin-bottom:15px;
+	padding:8px 10px;	
+}
+
+.start_att_listTable li,
+.start_att_listTable2 li {
+	display:table;
+	width:100%;
+	border:1px solid #ccc;
+}
+
+.start_att_listTable li.lastChild,
+.start_att_listTable2 li.lastChild {
+	border-top:none;	
+}
+
+.start_att_2col {
+	border-bottom:1px dotted #ccc;
+	padding-bottom:15px;
+	margin-bottom:15px;	
+}
+
+.start_att_2col_lastChild {
+	border-bottom:none;
+	padding-bottom:15px;
+	margin-bottom:15px;	
+}
+
+/*------------------------------------
+	faq.html
+------------------------------------*/
+
+.faq_q { /*BPのCSSに記載*/ }
+.faq_a { /*BPのCSSに記載*/ }
+.faq_a_lastChild { /*BPのCSSに記載*/ }
+
+.faq_q div.mark,
+.faq_q div.mark2,
+.faq_a div.mark {
+	float:left;	
+}
+
+.faq_q div.faq_mail {
+	display:block;
+	padding:5px;
+	border:1px solid #ccc;
+}
+
+.faq_q div.txtArea,
+.faq_a div.txtArea {
+	/*BPのCSSに記載*/
+}
+
+.faq_q div.mark span {
+	display:inline-block;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;	
+	background:#009de8;
+	width:24px;
+	text-align:center;
+	margin-right:12px;
+	line-height:1;
+	padding:4px 0
+}
+
+.faq_q div.mark2 span {
+	display:inline-block;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;	
+	background:#009de8;
+	
+	text-align:center;
+	margin-right:2px;
+	line-height:1;
+	padding:0
+}
+
+.faq_a div.mark span {
+	display:inline-block;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;	
+	background:#ff727a;
+	width:24px;
+	text-align:center;
+	margin-right:12px;
+	line-height:1;
+	padding:4px 0
+}
+
+/*------------------------------------
+	start_basic15.html
+------------------------------------*/
+.start_basic_borderList { clear:both; }
+.start_basic_borderList li {
+	float:left;
+	display:block;
+	padding:8px 0;
+	margin:0 5px 10px 5px;
+	border:1px solid #ccc;
+	text-align:center;
+	text-indent:0;		
+}
+
+.listHeight1 {display:block}
+
+/*------------------------------------
+	ヘッダー＆フッター（新HIGS対応）
+------------------------------------*/
+
+/* --- [-] Header --- */
+
+#SiteIdentityP {
+	border-top: solid 5px #e60027;
+	background-color: #f2f2f2;
+	height: 45px;
+}
+
+#SiteIdentityP p {
+	padding: 9px 0 0 14px;
+}
+
+
+/* --- [-] Footer --- */
+
+#Footer {
+	min-width: 0;
+	padding: 15px;
+	clear: both;
+	background-color: #e5e5e5;
+	overflow: hidden;
+}
+* #Footer {padding: 15px 15px 15px 15px;}
+*:first-child+html #Footer {padding: 15px 15px 15px 15px;}
+
+#Footer p {
+	width: auto;
+	margin: 0 auto;
+	font-size: 65%;
+	text-align: left;
+	line-height: 1.5em;
+	color: #333;
+	vertical-align: top;
+}
+
+.Section {
+padding: 0 0 10px;
+}
+
+/* --- [-] Close Button --- */
+
+.CloseButtonStyle {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.CloseButtonStyle li {
+	height: 50px;
+	overflow: hidden;
+}
+* html .CloseButtonStyle li {
+	text-align: right;
+}
+
+.CloseButtonStyle li a {
+	display: block;
+	padding: 22px 9px;
+	background: url(../img/icon_close.gif) no-repeat 50% 9px;
+	font-size: 76%;
+	line-height: 2.2em;
+}
+* html .CloseButtonStyle li a {
+	width: 50px;
+	padding: 22px 0;
+	text-align: center;
+}
+
+.CloseButtonStyle li a:link,
+.CloseButtonStyle li a:visited {
+	background-color: #e60027;
+	color: #fff;
+	text-decoration: none;
+}
+
+.CloseButtonStyle li a:hover,
+.CloseButtonStyle li a:active {
+	background-color: #b1000e;
+	color: #fff;
+	text-decoration: none;
+}
+
+.box3 { border:1px solid #D80100;padding:15px 20px; }

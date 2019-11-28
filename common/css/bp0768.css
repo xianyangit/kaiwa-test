@@ -1,0 +1,347 @@
+#CC			{margin:0 auto; width:720px;}
+
+/* ヘッダー 
+#cHD		{margin:0 5px; width:708px;}
+*/
+/* メインイメージ */
+#cMI		{margin:20px 5px; width:708px;}
+
+#MDC1		{margin:0 0 20px 0; width:720px; }
+#MDC2		{margin:0 0 0 0; width:720px; }
+
+/* TOP SCROLL MOBILE */			
+.tSCL		{position: fixed; bottom:50px; right:24px;}
+.posR		{width:64px; height:64px; margin:0 5px 20px 5px; position:absolute; right:0; text-align:center;}
+.posR img	{padding:20px;}
+
+
+/* 右カラム */
+#RC			{clear:both;margin:0px 0 20px 0; width:720px;}
+.R_dot_lines{	float:left;width:1px;height:200px;
+				margin:0px 5px 0px 5px;border-left: 1px dotted #CCCCCC;}
+
+.cR_sub			{margin:0 5px 10px 5px;}
+.cR_sub	a		{display: block; margin:0 !important; width:100%;
+				border-top: 1px dotted #CCCCCC;position:relative; }
+
+.etc1	{	line-height: 110%;font-size:10px;}
+
+/*------------------------------------
+	header
+------------------------------------*/
+#siteIdentity { font-size:18px; padding:0;}
+
+
+.acoMenu {display:none;}
+#headLocalNavi ul.btnList {display:block;}
+
+/*------------------------------------
+	searchArea
+------------------------------------*/
+
+#searchArea {
+	padding: 4px 0px;
+	border-style: none;
+	line-height: 1.1;
+}
+#searchArea form {
+	margin: 0px;
+	padding: 0px;
+	font-size: 83%;
+}
+#searchArea input {
+	margin: 0px;
+	vertical-align: middle;
+}
+#searchArea input.text-field {
+	padding: 0px 2px;
+	width: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+}
+#searchArea em {
+	font-style: normal;
+	color: #3E3A39;
+}
+#searchArea em img {
+	vertical-align: middle;
+}
+
+
+/*------------------------------------
+	inner
+------------------------------------*/
+.inner { padding-left:20px; }
+.section { padding-left:5px; padding-bottom:30px; }
+.section1 { padding-left:5px; padding-bottom:20px; }
+.section2 { padding-left:5px; padding-bottom:20px; }
+.section3 {}
+.section4 { padding:0 5px 20px 5px; }
+
+div.cR_sub .columnArea1 {
+	float:left;
+	border:1px solid #ccc;
+	margin-right:10px;
+	padding:12px;
+	width:319px;
+}
+
+.sideBtnArea{}
+/*------------------------------------
+	2Column inner
+------------------------------------*/
+.box2Column div.leftBox,
+.box2Column_noBd div.leftBox {
+	float:left;
+	width:375px;
+}
+
+.box2Column div.rightBox,
+.box2Column_noBd div.rightBox {
+	float:right;
+	width:298px;	
+}
+
+/*------------------------------------
+	4Column list
+------------------------------------*/
+.box4Column {
+	float:left;
+	width:170px;
+	margin:0 5px 10px 5px;	
+}
+
+
+/*------------------------------------
+	buttonList
+------------------------------------*/
+.btnList li{
+	float:left;
+	margin:0 5px 10px 5px;
+}
+
+
+/*------------------------------------
+	btnsize
+------------------------------------*/
+.btnW_2Cola { width:292px; }
+.btnW_2ColB { width:324px; }
+.btnW_2ColC { width:260px; }
+.btnW_2ColD { width:304px; }/*サイド有*/
+.btnW_2ColE { width:280px; }/*サイド有*/
+.btnW_3Cola { width:184px; }/*サイド有*/
+.btnW_3ColB { width:184px; }
+.btnW_3ColC { width:204px; }
+.btnW_3ColD { width:169px; }
+.btnW_4ColB { width:124px; }
+.btnW_5ColA { width:184px; }
+.btnW_side  { width:184px; }
+
+.btnH1 { height:34px!important; }
+.btnH2 { height:inherit!important; }
+.btnH3 { height:80px!important; }
+.btnH4 { height:62px!important; }
+.btnH5 { height:38px!important; }
+
+#headLocalNavi li a.btn_a span.btnInner2 { height:56px; }
+#headLocalNavi li.current a.btn_a span.btnInner2 { height:56px; }
+/*------------------------------------
+	footer
+------------------------------------*/
+
+#cFT_inner { width:720px; margin:0 auto; text-align:center; font-size:11px;padding:25px 0;}
+#footerBtn { width:720px; }
+#footerBtn li {font-size:12px!important;}
+#footerBtn li a {
+	display:block;
+	width:140px;
+	padding:8px 12px 8px 6px;
+}
+
+/*------------------------------------
+	btnList_small
+------------------------------------*/
+.btnList_small { padding:0 5px;}
+.btnList_small li {
+	width: 138px;
+}
+
+/*------------------------------------
+	start_setting01.html
+------------------------------------*/
+
+.tableStyle1{
+	border-collapse:collapse;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	width:100%;
+}
+
+.tableStyle1 th {
+	background:#efefef;
+	padding:8px 15px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+
+.tableStyle1 td {
+	padding:8px 15px;
+	vertical-align:middle;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+
+/*------------------------------------
+	start_setting02.html
+------------------------------------*/
+.settingColumn div.leftBox,
+.settingColumn2 div.leftBox {
+	float:left;
+	width:120px;	
+}
+
+.settingColumn div.rightBox,
+.settingColumn2 div.rightBox {
+	float:right;
+	width:550px;
+}
+
+/*------------------------------------
+	start_compatible_models.html
+------------------------------------*/
+
+ul.modelList {
+	clear:both;
+	border-bottom:1px dotted #ccc;
+	margin-bottom:10px;
+}
+
+ul.modelList li {
+	float:left;
+	display:block;
+	padding:12px 0;
+	margin:0 5px 10px 5px;
+	border:1px solid #ccc;
+	text-align:center;
+	text-indent:0;		
+}
+
+ul.modelList li div {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	width:216px;
+}
+
+/*------------------------------------
+	start_basic01.html
+------------------------------------*/
+.start_att_listTable li span.tbHead {
+	display:table-cell;
+	background:#fff;
+	width:21%;
+	padding:15px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.start_att_listTable li span.tbBody {
+	display:table-cell;
+	width:79%;
+	padding:15px 10px;
+	background:#fff;
+	vertical-align:middle;
+}
+
+.start_att_listTable2 li span.tbHead {
+	display:table-cell;
+	background:#fff;
+	width:15%;
+	padding:15px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.start_att_listTable2 li span.tbBody {
+	display:table-cell;
+	width:85%;
+	padding:15px 10px;
+	background:#fff;
+	vertical-align:middle;
+}
+
+.start_att_2col div.leftBox,
+.start_att_2col_lastChild div.leftBox {
+	float:left;
+	width:55px;	
+}
+
+.start_att_2col div.rightBox,
+.start_att_2col_lastChild div.rightBox {
+	float:left;
+	width:618px;	
+}
+
+/*------------------------------------
+	faq.html
+------------------------------------*/
+
+.faq_q { clear:both; margin-bottom:15px; padding:0 20px 0; }
+.faq_a { clear:both; margin-bottom:15px; padding:0 20px 15px; border-bottom:1px dotted #ccc; }
+.faq_a_lastChild { margin-bottom:0;padding-bottom:0;border-bottom:none; }
+
+.faq_q div.txtArea,
+.faq_a div.txtArea {
+	float:right;
+	width:635px;
+	padding:4px 0 0 0;
+}
+
+.faq_q div.txtArea2{
+	float:right;
+	width:625px;
+	padding:4px 0 0 0;
+}
+
+/*------------------------------------
+	start_basic15.html
+------------------------------------*/
+.start_basic_borderList li div {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	width:160px;
+}
+
+/*------------------------------------
+	start_basic04.html
+------------------------------------*/
+
+.tableStyle2{
+	border-collapse:collapse;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	width:100%;
+}
+
+.tableStyle2 th {
+	background:#efefef;
+	padding:8px 15px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+
+.tableStyle2 td {
+	padding:8px 15px;
+	text-align:center;
+	vertical-align:middle;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
