@@ -599,6 +599,11 @@
 .app_table img{
 	width:22px;
 }
+.app_links_txt{
+	display:inline!important;
+	text-decoration:underline!important;
+	color:#c02!important;
+}
 @media only screen and (min-width: 0) and (max-width: 360px) {
 
 

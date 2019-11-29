@@ -535,9 +535,17 @@
 .app_table img{
 	width:37px;
 }
-
-
-
+.app_links_txt{
+	display:inline!important;
+	text-decoration:underline!important;
+	color:#c02!important;
+}
+.app_links_txt:hover{
+	text-decoration:none!important;
+}
+.start_att_2col div.rightBox, .start_att_2col_lastChild div.rightBox{
+	width:calc(100% - 60px);
+}
 
 
  @media only screen and (min-width: 768px) and (max-width: 1274px) {
