@@ -19,14 +19,24 @@
 <script type="text/javascript" src="/js/jp/r1/wide.js"></script>
 <link rel="stylesheet" href="/module/js/v01a/Protect/protected.css" type="text/css" media="screen,print">
 <script type="text/javascript" src="/module/js/v01a/Protect/protected.js" charset="utf-8"></script>
+
+<link rel='stylesheet' href='common/css/default.css' media='screen,print' />
+<link rel='stylesheet' href='common/css/bp1024.css' media='screen' id='RDCSS' />
+<link rel='stylesheet' href='common/css/bp1024.css' media='print' />
+<script type="text/javascript" src="common/js/jquery-1.7.1.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+<script type="text/javascript" src="common/js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="common/js/jquery.easing.js"></script>
+<script type="text/javascript" src="common/js/heightLine.js"></script>
+<script type="text/javascript" src="common/js/rd.js"></script>
+
 <!--FW2-->
 <link rel="stylesheet" href="/module/fw2/css/fw2.css" media="screen , print">
 <script defer type="text/javascript" src="/module/fw2/js/fw2.js"></script>
 <!--/FW2-->
 
-<link rel='stylesheet' href='common/css/default.css' media='screen,print' />
-<link rel="stylesheet" href="common/css/app_pc.css" media="screen and (min-width:768px) , print">
-<link rel="stylesheet" href="common/css/app_sp.css" media="screen and (max-width:767px)">
+<link rel="stylesheet" href="common/css/fw2_pc.css" media="screen and (min-width:768px) , print">
+<link rel="stylesheet" href="common/css/fw2_sp.css" media="screen and (max-width:767px)">
 
 
 </head>
@@ -51,7 +61,7 @@
         
     <div class="windowWidth fea_mt30">
         <div class="contentsWidth FW2_h1_box">
-            <h1>白くまくんアプリ</h1>
+            <h1>白くまくんアプリ<span class="tit_red">(2019年12月23日開始予定)</span></h1>
         </div>
     </div>
     
@@ -61,176 +71,262 @@
             	<div class="app_img01"><img src="img/app_01.jpg" alt="" /></div>
             	<p><picture><source media="(max-width:767px)" srcset="img/topimg02_sp.jpg"><img src="img/topimg02_pc.jpg" alt=""></picture></p> 
             </div>
-            <div class="FW2_0101MB">
-            	<div class="app_line01 fea_mb30">
-<p>乳幼児・お子様・お年寄り・病気の方・体の不自由な方など、ご自身でエアコンの操作ができない方が在室している場合は、管理できる人が近くにいるときに本操作をご使用ください。製品安全上の観点から22時間弊社サーバと通信できない状態になるとエアコンが自動停止する保護機能があります。</p>
-</div>
-            </div>
         </div>
         
         <div class="contentsWidth">
-            <div class="app_container">
+            <div class="FW2_0101MB">
+<div class="fea_mb20">
+
+    <div class="app_line02 fea_mb20">
+        <p>【お知らせ】 新商品X/XC/XJシリーズのスマホ遠隔操作について<br>当サービスの開始は発売日より遅れ、現在お使いいただけません。スマートフォンによる遠隔操作開始は、ご迷惑をお掛けし誠に申し訳ございませんが12月23日を予定しております。</p>
+    <p class="fea_noteM">※12月22日までにご購入設置されたお客様は、お手数ですが12月23日以降に、上記の白くまくんアプリをスマホへインストールしお使いいただきますようお願い申し上げます。<br>なお、既存の「日立エアコン モバイルコントロール」では操作できませんので、ご了承ください。</p>
+    </div>
+    
+        <div class="app_line02 fea_mb20">
+        	<p>本機能は20年度X/XC/XJシリーズ以降に発売する機種に対応しております。従来機種をスマホで操作する機能については<a class="app_link" href="/ra/app/index.html">日立エアコン モバイルコントロール</a>をご確認ください。</p>
+    	</div>
+        
+        <div class="app_line02 fea_mb30">
+        	<p>乳幼児・お子様・お年寄り・病気の方・体の不自由な方など、ご自身でエアコンの操作ができない方が在室している場合は、管理できる人が近くにいるときに本操作をご使用ください。</p>
+    	</div>
+
+
+</div>
+
+	<h2 class="app_stit fea_mb20">白くまくんアプリとは</h2>
+    <div class="inner cB fea_mb30">
+        <div class="section">
+        	<p class="fea_mb05">スマートフォンで専用のアプリを使って、外出先からエアコンが操作できます。</p>
+            <p class="fea_noteM">※専用アプリのダウンロードならびにサービス利用にあたっては、別途通信費がかかります。<br>※通信状況が悪い場合は、操作に時間がかかる場合やご利用になれないことがあります。</p>
+        </div>
+    </div>
+    
+    <h2 class="app_stit fea_mb20">必要環境</h2>
+    
+    <h3 class="sT1_SET cFix" id="app_download">
+        <div class="sT1_LINE">
+            <div class="sT1_BOX sT1_BOX_ra">
+            	<span>システム構成</span>
+            </div>
+        </div>
+    </h3>
+    
+    <div class="inner fea_mb30">
+        <div class="section">
+            <p class="aC fea_mb15"><img src="img/about_img01.png" alt="システム構成(イメージ)" class="switch"></p>
+            <ul class="annotation mb10">
+                <li>●専用アプリのダウンロードならびにサービス利用にあたっては、別途通信費がかかります。</li>
+                <li>●通信状況が悪い場合には、ご利用できないまたは操作が反映されるまでに時間がかかる場合があります。</li>
+                <li>●ブロードバンド回線（常時接続）が必要です。</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <h3 class="sT1_SET cFix" id="app_download">
+        <div class="sT1_LINE">
+            <div class="sT1_BOX sT1_BOX_ra">
+            	<span>お客様にご用意いただくもの</span>
+            </div>
+        </div>
+    </h3>
+    
+    <div class="section3 cB fea_mb40">
+        <ul class=" app_flex01">
+            <li class="app_col0502 app_ab_btn01"><img src="img/start01_img02_5.gif" alt=""><a href="model.html"></a></li>
+            <li class="app_col0502"><img src="img/start01_img02_1.gif" alt="スマートフォン(iOS・AndroidTM)"></li>
+            <li class="app_col0502"><img src="img/start01_img02_2.gif" alt="日立エアコン モバイルコントロール(無料)※ダウンロード時の通信費は別途。"></li>
+            <li class="app_col0502"><img src="img/start01_img02_3.gif" alt="インターネット回線と通信機器 モデム/ONUなど"></li>
+            <li class="app_col0502"><img src="img/start01_img02_6.gif" alt="無線LANルーター"></li>
+        </ul>
+    </div>
+    
+    <h3 class="sT1_SET cFix" id="app_download">
+        <div class="sT1_LINE">
+            <div class="sT1_BOX sT1_BOX_ra">
+            	<span>対応エアコン一覧</span>
+            </div>
+        </div>
+    </h3>
+    
+    <div class="inner">
+        <div class="section1">
+            <p class="fea_mb20">RAS-X22K、RAS-X25K、RAS-X28K、RAS-X36K、RAS-X36K2、RAS-X40K2、RAS-X56K2、RAS-X63K2、RAS-X71K2、RAS-X80K2、RAS-X90K2<br>
+RAS-XJ22K、RAS-XJ25K、RAS-XJ28K、RAS-XJ36K、RAS-XJ36K2、RAS-XJ40K2、RAS-XJ56K2、RAS-XJ63K2、RAS-XJ71K2、RAS-XJ80K2、RAS-XJ90K2<br>
+RAS-XC22K、RAS-XC25K、RAS-XC28K、RAS-XC36K、RAS-XC36K2、RAS-XC40K2、RAS-XC56K2、RAS-XC63K2、RAS-XC71K2、RAS-XC80K2、RAS-XC90K2
+            </p>
+        </div>
+    </div>
+    
+     <h2 class="app_stit fea_mb20">機能</h2>
+     <div class="inner cB fea_mb20">
+        <div class="section">
+        	<p>エアコンに対して次のことができます。</p>
+        </div>
+    </div>
+    
+    
+    <h3 class="sT1_SET cFix" id="app_download">
+        <div class="sT1_LINE">
+            <div class="sT1_BOX sT1_BOX_ra">
+            	<span>状態確認</span>
+            </div>
+        </div>
+    </h3>
+    
+    <div class="inner">
+        <div class="section1">
+            <p class="fea_mb20">ご指定のエアコンの運転状況を画面に表示します。<br>お知らせする項目は下記の通りです。</p>
+            <ul class="start_basic_borderList app_list02 fea_mb30">
+                <li class="FW2PCSP10"><div>運転モード</div></li>
+                <li class="FW2PCSP10"><div>設定温度<br><span class="txtSmall">※一部の運転モードのみ</span></div></li>
+                <li class="FW2PCSP10"><div>設定湿度<br><span class="txtSmall">※一部の運転モードのみ</span></div></li>
+                <li class="FW2PCSP10"><div>設定風速</div></li>
+                <li class="FW2PCSP10"><div>室温</div></li>
+            </ul>
+        </div>
+    </div>
+    
+    <h3 class="sT1_SET cFix" id="app_download">
+        <div class="sT1_LINE">
+            <div class="sT1_BOX sT1_BOX_ra">
+            	<span>操作</span>
+            </div>
+        </div>
+    </h3>
+    
+    <div class="inner">
+        <div class="section1">
+            <p class="fea_mb20">ご指定のエアコンに対して運転の変更をし、操作結果を画面に表示します。<br>操作できる項目は下記の通りです。</p>
+            <p class="swipeText PCdisplayNone">＜<span>左右にスワイプ</span>＞</p>
+            <div class="slide_sp">
+            <table class="tableStyle2 app_table mb15" summary="日立エアコン モバイルコントロールで操作できる項目">
+                <colgroup>
+                	<col width="4%">
+                    <col width="12%">
+                    <col width="12%">
+                    <col width="12%">
+                    <col width="12%">
+                    <col width="8%">
+                    <col width="8%">
+                    <col width="8%">
+                    <col width="8%">
+                    <col width="8%">
+                    <col width="*">
+                </colgroup>
+                <tbody>
+
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th colspan="2" rowspan="2">運転モード</th>
+                    <th rowspan="2">設定温度(℃)</th>
+                    <th rowspan="2">設定湿度(％)</th>
+                    <th colspan="6">設定風速の変更</th>
+                </tr>
+                <tr>
+                	<th>自動</th>
+                    <th><img src="img/img_04.jpg" alt=""></th>
+                    <th><img src="img/img_05.jpg" alt=""></th>
+                    <th><img src="img/img_06.jpg" alt=""></th>
+                    <th><img src="img/img_07.jpg" alt=""></th>
+                    <th><img src="img/img_08.jpg" alt=""></th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td rowspan="6">運転／停止</td>
+                    <td>自動</td>
+                    <td>○<sup>※1</sup></td>
+                    <td>―</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>―</td>
+                    <td>―</td>
+                    <td>―</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>暖房</td>
+                    <td>○</td>
+                    <td>―</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>冷房</td>
+                    <td>○</td>
+                    <td>―</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>除湿</td>
+                    <td>○</td>
+                    <td>○<sup>※2</sup></td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>涼快</td>
+                    <td>○</td>
+                    <td>○<sup>※2</sup></td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>送風</td>
+                    <td>―</td>
+                    <td>―</td>
+                    <td>―</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <p class="fea_noteM fea_mb20">※1 自動の設定温度は-3～+3で設定できます。<br>※2 除湿・涼快の設定湿度は40・45・50・55・60％から設定できます。</p>
+              
+              <div class="app_line02">
+                 <p class="fea_noteM">※エアコンが連続運転中でかつ遠隔操作機能が有効な状態で、無線LAN接続アダプターと当社専用サーバー間で約22時間以上通信できなかった場合には運転を停止します。</p>
+             </div>
+            
+        </div>
+    </div>
+
+
 
     
-<h2 class="app_stit fea_mb20">白くまくんアプリとは</h2>
-<div class="inner cB">
-<div class="section">
-<p class="fea_mb05">スマートフォンで専用のアプリを使って、外出先からエアコンが操作できます。</p>
-<p class="FW2_note">※専用アプリのダウンロードならびにサービス利用にあたっては、別途通信費がかかります。</p>
-<p class="FW2_note">※通信状況が悪い場合は、操作に時間がかかる場合やご利用になれないことがあります。</p>
-<p class="fea_noteM fea_mb20">本機能は20年度X/XC/XJシリーズ以降に発売する機種に対応しております。お使いのエアコンが白くまくんアプリに対応するかは<a class="app_links_txt" href="model.html">白くまくんアプリの対応エアコンについて</a>をご確認ください。</p>
-
-</div>
-</div>
 
 
-<div class="section3 cB fea_mb10">
-<ul class="app_btn_list">
-<li><a href="about.html" class="btn_a"><span class="btnInner"><span class="btnLetter btnW_2ColD heightLine-btn1">白くまくんアプリをお使いになる前に</span></span></a></li>
-<li><a href="lan.html" class="btn_a"><span class="btnInner"><span class="btnLetter btnW_2ColD heightLine-btn1">エアコンをネットワークに接続する</span></span></a></li>
-<li><a href="app.html" class="btn_a"><span class="btnInner"><span class="btnLetter btnW_2ColD heightLine-btn1">白くまくんアプリの操作について</span></span></a></li>
-<li><a href="faq.html" class="btn_a"><span class="btnInner"><span class="btnLetter btnW_2ColD heightLine-btn1">よくあるご質問</span></span></a></li>
-</ul>
-</div>
 
-<h3 class="sT1_SET cFix" id="app_download">
-<div class="sT1_LINE">
-<div class="sT1_BOX sT1_BOX_ra">
-<span>アプリのダウンロードはこちらから</span>
-</div>
-</div>
-</h3>
-<div class="inner">
-<div class="section1">
-<p class="fea_mb10">白くまくんアプリを下記のボタンからダウンロードしていただけます。</p>
-
-<p class="FW2_note fea_mb30">※専用アプリは無料ですが、別途通信費がかかります。</p>
-
-</div>
-<h4 class="sT2_SET cFix">
-<div class="sT2_LINE">
-<div class="sT2_BOX sT2_BOX_ra">
-<span>お使いのスマートフォン</span>
-</div>
-</div>
-</h4>
-<div class="section3 cB fea_mb10">
-<ul class="app_btn_list">
-<li><a href="https://itunes.apple.com/us/app/ri-lieakonmobairukontororu/id615848889?l=ja&ls=1&mt=8" class="btn_a"><span class="btnInner"><span class="btnLetter fea_tac btnW_2Cola">iPhoneの場合はこちらから<br>
-  <img src="img/btn_appstore.png" alt="Available on the App Store" ></span></span></a></li>
-<li><a href="https://play.google.com/store/apps/details?id=jp.co.hitachiap.rac.smaph.android" class="btn_a"><span class="btnInner"><span class="btnLetter fea_tac btnW_2Cola">Android&trade;の場合はこちらから<br>
-  <img src="img/btn_googleplay.png" alt="GET IT ON Google play" ></span></span></a></li>
-</ul>
-</div>
-</div>
-
-
-<div class="section inner">
-<ul class="annotation">
-<li>●Apple、Appleのロゴは米国および他国のApple Inc.の登録商標です。</li>
-<li>●iPhoneはApple Inc.の商標です。</li>
-<li>●iPhone商標は、アイホン株式会社のライセンスに基づき使用されています。</li>
-<li>●Google Play&trade;、Google Play&trade;ロゴは、Google Inc.の商標または登録商標です。</li>
-<li>●Android&trade;は、Google Inc.の商標または登録商標です。</li>
-</ul>
-</div>
 
     </div><!--app_container end-->
     
     
-            <div class="app_side"><!-- id="RC" ↓↓↓↓↓-->
-<h3 class="sT1_SET cFix">
-<div class="sT1_LINE">
-<div class="sT1_BOX">
-<span>お客様相談窓口</span>
-</div>
-</div>
-</h3>
-      <div class="cR2"><!-- class="cR2" ↓↓↓↓↓--> 
-      
-      <div class="cR_sub">
-      <div class="columnArea1 fea_mb10">
-      <p class="fea_fontS fea_mb10">遠隔操作に関する相談窓口</p>
-      
-<p class="fea_noteL fea_mb10">お電話によるお問い合わせの際は、番号をお確かめのうえ、おかけくださいますようお願いいたします。
-</p>
-      <ul class="fea_mb10 fea_noteL"><li><strong>TEL 0120-9597-25</strong></li>
-      
-      <li><strong>FAX 0120-3121-34</strong></li>
-      </ul>
-      <p class="fea_noteL fea_mb05">&lt;受付時間&gt;<br>
-9:00～17:30（月～土）<br>
-9:00～17:00（日・祝）</p>
-<p class="fea_noteL fea_mb10">年末年始は休ませていただきます。
-</p>
-<p class="fea_noteM">※IP電話やひかり電話など、上記電話番号をご利用いただけないお客様は、各地区の修理ご相談窓口サービスセンターへおかけください。
-</p>
-      </div>
-      
-      <div class="columnArea1">
-      <p class="fea_mb10 fea_fontS">エコーセンター</p>
-      <p class="fea_noteL fea_mb10">修理などアフターサービスに関するご相談はエコーセンターへ
-</p>
-      <p class="fea_noteL fea_mb10">お電話によるお問い合わせの際は、番号をお確かめのうえ、おかけくださいますようお願いいたします。
-</p>
-      <ul class="fea_mb10 fea_noteL">
-	<li><strong>TEL 0120-3121-68</strong></li>
-    <li><strong>携帯電話・PHSから</strong></li>
-    <li><strong>0570-0031-68(有料)</strong></li>
-	<li><strong>FAX 0120-3121-87</strong></li>
-      </ul>
-
-      <p class="fea_mb10 fea_noteL">
-      &lt;受付時間&gt;<br>
-9:00～18:00（月～土）<br>
-9:00～17:00（日・祝）
-</p>
-<p class="fea_noteM">※IP電話やひかり電話など、上記電話番号をご利用いただけないお客様は、各地区の修理ご相談窓口サービスセンターへおかけください。
-</p>
-
-</div>
-</div>
-
-<div class="sideBtnArea cB">
-<!--
-<h2 class="sT1_SET cFix">
-<div class="sT1_LINE">
-<div class="sT1_BOX">
-<span>取扱説明書</span>
-</div>
-</div>
-</h2>
-<ul class="app_btn_list app_btn_list_col01">
-<li><a href="pdf/SP-WL1-S_A.pdf" class="btn_a" target="_blank"><span class="btnInner aC"><span class="btnLetter btnW_side">SP-WL1<br><span class="fea_noteL">PDF形式（約8.57Mバイト） </span></span></span></a></li>
-<li><a href="pdf/sp_wl2_d_tori.pdf" target="_blank" class="btn_a"><span class="btnInner aC"><span class="btnLetter btnW_side">SP-WL2<br><span class="fea_noteL">PDF形式（約1.5Mバイト） </span></span></span></a></li>
-</ul>  
-
-<h2 class="sT1_SET cFix">
-<div class="sT1_LINE">
-<div class="sT1_BOX">
-<span>据付説明書</span>
-</div>
-</div>
-</h2>
-<ul class="app_btn_list app_btn_list_col01 fea_mb10">
-<li><a href="pdf/SP-WL1-S_A_sue.pdf" class="btn_a" target="_blank"><span class="btnInner aC"><span class="btnLetter btnW_side">SP-WL1<br><span class="fea_noteL">PDF形式（約1.14Mバイト） </span></span></span></a></li>
-<li><a href="pdf/sp_wl2_sue_b.pdf" target="_blank" class="btn_a"><span class="btnInner aC"><span class="btnLetter btnW_side">SP-WL2<br><span class="fea_noteL">PDF形式（約0.7Mバイト） </span></span></span></a></li>
-</ul>
-
--->
-<div class="app_liine02">
-<ul class="app_btn_list app_btn_list_col01">
-<li><a href="terms.html" class="btn_a"><span class="btnInner FW2PC10"><span class="btnLetter btnW_side">利用規約・プライバシーポリシー</span></span></a></li>
-<li><a href="precautions.html" class="btn_a"><span class="btnInner FW2PC10"><span class="btnLetter btnW_side">安全上のご注意<br>(必ずお守りください)
-</span></span></a></li>
-<li><a href="/manual/" class="btn_a"><span class="btnInner FW2PC10"><span class="btnLetter btnW_side">エアコンの取扱説明書を見る</span></span></a></li>
-</ul>  
-</div>
- 
-</div>   
-      </div>
-      <!-- class="cR2" ↑↑↑↑↑-->
-    </div><!--app_side end-->
+            <!--app_side end-->
         </div>
         
         
@@ -241,7 +337,7 @@
     
     <div class="windowWidth">
     	<div class="contentsWidth">
-        	<div class="FW2_0101MB">
+        	<div class="FW2_0101MB fea_mb0">
             	<div id="footerBtn" class="cFix">
 <div class="aR"><small>製造元　日立ジョンソンコントロールズ空調株式会社</small></div>
 <div class="tSCL"><!-- class="tSCL" ↓↓↓↓↓-->
